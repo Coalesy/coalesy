@@ -1,9 +1,21 @@
 import React from 'react'
+import ItemCard from '../components/ItemCard';
+
 
 function page() {
   return (
-    <div className='text-red-500 lg:text-[40px] md:text-[20px]'>
-      This is the marketplace page
+    <div className=''>
+       {data.map((item, index) => (
+        <ItemCard
+          key={index}
+          logo={item.logo}
+          name={item.name}
+          price={item.price}
+          items={item.items}
+          minted={item.minted}
+        />
+      ))}
+
     </div>
   )
 }
