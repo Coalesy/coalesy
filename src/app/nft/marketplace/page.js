@@ -1,10 +1,22 @@
 import Navbar from '@/components/navbar/Navbar'
 import React from 'react'
+import ItemCard from '../components/ItemCard';
+
 
 function page() {
   return (
-    <div className='text-red-700'>
-     This is the nft
+    <div className=''>
+       {data.map((item, index) => (
+        <ItemCard
+          key={index}
+          logo={item.logo}
+          name={item.name}
+          price={item.price}
+          items={item.items}
+          minted={item.minted}
+        />
+      ))}
+
     </div>
   )
 }
