@@ -1,24 +1,12 @@
-import Navbar from '@/components/navbar/Navbar'
-import React from 'react'
-import ItemCard from '../components/ItemCard';
-
+import React from "react";
+import Collections from "@/components/nft/marketplace/Collections";
 
 function page() {
   return (
-    <div className=''>
-       {data.map((item, index) => (
-        <ItemCard
-          key={index}
-          logo={item.logo}
-          name={item.name}
-          price={item.price}
-          items={item.items}
-          minted={item.minted}
-        />
-      ))}
-
+    <div className="">
+      <Collections />
     </div>
-  )
+  );
 }
 
-export default page
+export default page;
