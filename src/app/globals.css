@@ -34,6 +34,11 @@ body {
   margin: 0 auto;
   padding: 1rem;
 }
+.nav-container {
+  max-width: 1080px; 
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
 
 
 @layer utilities {
