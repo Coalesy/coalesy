@@ -21,8 +21,9 @@ const Web = () => {
           <p className="w-[442px] opacity-70 pt-6 pb-14">
             Ready to embark on unforgettable event journeys? Explore the Coalesy
             platform, discover upcoming events, and join a community that
-            celebrates the power of shared experiences. We&apos;re more than just
-            tickets; we&apos;re a platform built for event enthusiasts like you!
+            celebrates the power of shared experiences. We&apos;re more than
+            just tickets; we&apos;re a platform built for event enthusiasts like
+            you!
           </p>
           <div className="gap-2 flex items-center">
             <p>Learn More</p>
@@ -46,20 +47,20 @@ const Web = () => {
             <p className="w-[442px] opacity-70 pt-6 pb-14">
               Ready to embark on unforgettable event journeys? Explore the
               Coalesy platform, discover upcoming events, and join a community
-              that celebrates the power of shared experiences. We&apos;re more than
-              just tickets; we&apos;re a platform built for event enthusiasts like
-              you!
+              that celebrates the power of shared experiences. We&apos;re more
+              than just tickets; we&apos;re a platform built for event
+              enthusiasts like you!
             </p>
             <div className="gap-2 flex items-center">
               <p>Learn More</p>
-            
-            <Image
-              className=""
-              src="./arrow-right.svg"
-              alt="Next.js Logo"
-              width={17}
-              height={17}
-            />
+
+              <Image
+                className=""
+                src="./arrow-right.svg"
+                alt="Next.js Logo"
+                width={17}
+                height={17}
+              />
             </div>
           </div>
 
@@ -75,7 +76,7 @@ const Web = () => {
         </div>
 
         <div className="lg:flex lg:flex-row flex-col items-center py-20 justify-center gap-[80px]">
-        <div className="bg-[#443448] p-4 rounded-md">
+          <div className="bg-[#443448] p-4 rounded-md">
             <Image
               className=""
               src="./buy.svg"
@@ -86,25 +87,26 @@ const Web = () => {
           </div>
           <div className="">
             <h1 className="text-[40px] font-600 lg:w-[442px] md:w-[400px] w-[350px] lg:leading-[44px] leading-[33px]">
-            Buy & sell NFT tickets on Coalesy
+              Buy & sell NFT tickets on Coalesy
             </h1>
             <p className="w-[442px] opacity-70 pt-6 pb-14">
-            Buy tickets directly from creators, access exclusive content, and potentially resell your tickets on the secondary market. Coalesy fosters a secure and user-friendly environment for buying and selling NFT tickets.
+              Buy tickets directly from creators, access exclusive content, and
+              potentially resell your tickets on the secondary market. Coalesy
+              fosters a secure and user-friendly environment for buying and
+              selling NFT tickets.
             </p>
             <div className="gap-2 flex items-center">
               <p>Learn More</p>
-            
-            <Image
-              className=""
-              src="./arrow-right.svg"
-              alt="Next.js Logo"
-              width={17}
-              height={17}
-            />
+
+              <Image
+                className=""
+                src="./arrow-right.svg"
+                alt="Next.js Logo"
+                width={17}
+                height={17}
+              />
             </div>
           </div>
-
-         
         </div>
       </div>
     </div>
