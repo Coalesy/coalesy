@@ -6,7 +6,7 @@ import Platform from "@/components/platform/Platform";
 import Possible from "@/components/possible/Possible";
 import Trusted from "@/components/trusted/Trusted";
 import Web from "@/components/web/Web";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
