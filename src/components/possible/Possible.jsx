@@ -52,10 +52,10 @@ const Possible = () => {
   return (
     <div className="px-56 py-8">
       <div>
-        <h1 className="w-[424px] text-[40px] font-600 lg:leading-[44px] leading-[33px]">
+        <h1 className="w-[484px] text-[40px] font-[600] lg:leading-[44px] leading-[33px]">
           We&apos;ve made it possible, everytime!
         </h1>
-        <p className="w-[424px] py-[28px]">
+        <p className="w-[424px] py-[28px] opacity-70">
           Explore the Coalesy platform, discover upcoming events, and join a community.
         </p>
         <button className="bg-[#FF5B96] font-semibold text-white py-[16px] px-[24px] rounded-md w-[205px] cursor-pointer">

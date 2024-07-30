@@ -5,7 +5,7 @@ const Future = () => {
   return (
     <div className="py-6">
       <div>
-        <h1 className="text-[40px] font-600 text-center">
+        <h1 className="text-[40px] font-[600] text-center">
           The future is here, Take control
         </h1>
       </div>

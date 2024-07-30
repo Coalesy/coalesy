@@ -61,7 +61,7 @@ const Navbar = () => {
       </div>
 
       <div>
-        <a href='' alt='' className="text[15px] :hover:bg-[#FF93FF] bg-[#FF5B96] tracking-[-2%] py-5 px-16 rounded-[5px] font-semibold">Connect wallet</a>
+        <a href='' alt='' className="text[15px] :hover:bg-[#FF93FF] bg-[#FF5B96] tracking-[-2%] py-3 px-12 rounded-[5px] font-semibold">Connect wallet</a>
       </div>
       </div>
 

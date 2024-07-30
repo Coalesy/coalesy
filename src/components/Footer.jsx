@@ -10,7 +10,7 @@ function Footer() {
       
       <div className=' footer-container flex flex-row justify-between items-center'>
         <div className='flex flex-col gap-2 w-f'>
-          <h1 className='text-[30px] font-semibold tracking-[-3%]'>Suscribe to our newsletter</h1>
+          <h1 className='text-[30px] font-semibold tracking-[-3%]'>Subscribe to our newsletter</h1>
           <p className='tracking-tight text-[15px] opacity-70'>Stay updated with our weekly newsletter to your inbox</p>
         </div>
 
