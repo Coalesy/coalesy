@@ -10,19 +10,19 @@ const Trusted = () => {
             className=""
             src="./line.svg"
             alt="Next.js Logo"
-            width={92}
+            width={80}
             height={33}
           />
         </div>
         <div>
-          <h1 className="text-[20px]">Backed by the best</h1>
+          <h1 className="text-[20px] opacity-70 tracking-[-0.5px]">Backed by the best</h1>
         </div>
         <div>
           <Image
             className=""
             src="./line.svg"
             alt="Next.js Logo"
-            width={92}
+            width={80}
             height={33}
           />
         </div>
@@ -33,7 +33,7 @@ const Trusted = () => {
             className=""
             src="./trusted.svg"
             alt="Next.js Logo"
-            width={932}
+            width={832}
             height={63}
           />
       </div>

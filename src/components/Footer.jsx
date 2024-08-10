@@ -4,17 +4,17 @@ import Image from 'next/image';
 function Footer() {
   return (
 
-    <div className='container py-[180px]'>
+    <div className='footer-container'>
 
       {/* FIRST SECTION */}
       
-      <div className=' footer-container flex flex-row justify-between items-center'>
-        <div className='flex flex-col gap-2 w-f'>
-          <h1 className='text-[30px] font-semibold tracking-[-3%]'>Suscribe to our newsletter</h1>
+      <div className=' footer-container flex flex-row justify-between items-center '>
+        <div className='flex flex-col gap-2 w-full pt-[80px]'>
+          <h1 className='text-[30px] font-semibold tracking-[-1px]'>Suscribe to our newsletter</h1>
           <p className='tracking-tight text-[15px] opacity-70'>Stay updated with our weekly newsletter to your inbox</p>
         </div>
 
-        <div className='flex flex-row gap-4'>
+        <div className='flex flex-row gap-4 pt-[80px]'>
           <div className='bg-[#443448] rounded-[5px]  px-4 py-4 w-[280px] flex '>
             <input className='outline-none text-[14px] text-white text-opacity-30 bg-transparent' type="email" placeholder="Email address" /> 
           </div>
