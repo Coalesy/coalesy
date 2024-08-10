@@ -3,26 +3,26 @@ import React from "react";
 
 const Future = () => {
   return (
-    <div className="py-6">
-      <div>
-        <h1 className="text-[40px] font-600 text-center">
+    <div className="footer-container ">
+      <div className="pt-[80px] flex justify-center items-center pb-14">
+        <h1 className="text-[40px] font-bold tracking-[-1px] w-[70%] text-center">
           The future is here, Take control
         </h1>
       </div>
 
-      <div className="px-56 flex gap-3 mt-12">
+      <div className="w-full px-56 flex justify-center gap-8 mt-12 footer-container">
 
-        <div className="bg-[url(/explore-bg.svg)] h-[393px] w-[295px] flex flex-col items-start p-8 justify-end">
-          <h1 className="opacity-70">Individuals</h1>
-          <h1 className="w-[209px] text-[20px] font-bold leading-[25px] py-[15px]">
+        <div className="bg-[url(/explore-bg.svg)] bg-repeat rounded-[10px] w-full h-[450px] bg-cover flex flex-col items-start p-8 justify-end">
+          <h1 className="opacity-80 text-[14px] font-medium tracking-[-0.2px]">Individuals</h1>
+          <h1 className="w-full text-[20px] font-bold leading-[25px] py-[15px] tracking-[-0.5px]">
             Explore available events
           </h1>
-          <p className="w-[213px] opacity-70">
+          <p className="w-full tracking-[-0.2px] text-[14px] opacity-70">
             Explore the Coalesy platform, discover upcoming events, and join a
             community.
           </p>
-          <div className="gap-2 flex items-center pt-12">
-            <p>Learn More</p>
+          <div className="gap-2 text-[14px] font-medium flex items-center pt-12">
+            <p>Learn more</p>
             <Image
               className=""
               src="./arrow-right.svg"
@@ -33,16 +33,16 @@ const Future = () => {
           </div>
         </div>
 
-        <div className="bg-[url(/create-bg.svg)] h-[393px] w-[295px] flex flex-col items-start p-8 justify-end">
-          <h1 className="opacity-70">Businesses</h1>
-          <h1 className="w-[209px] text-[20px] font-bold leading-[25px] py-[15px]">
+        <div className="bg-[url(/create-bg.svg)] bg-no-repeat rounded-[10px] bg-cover w-full h-[450px] flex flex-col items-start p-8 justify-end">
+          <h1 className="opacity-80 text-[14px] font-medium tracking-[-0.2px]">Businesses</h1>
+          <h1 className="w-full text-[20px] font-bold leading-[25px] py-[15px] tracking-[-0.5px]">
           Start creating your events
           </h1>
-          <p className="w-[213px] opacity-70">
+          <p className="w-full tracking-[-0.2px] text-[14px] opacity-70 ">
           Explore the Coalesy platform, discover upcoming events, and join a community.
           </p>
-          <div className="gap-2 flex items-center pt-12">
-            <p>Learn More</p>
+          <div className="gap-2 text-[14px] font-medium flex items-center pt-12">
+            <p>Learn more</p>
             <Image
               className=""
               src="./arrow-right.svg"
@@ -53,16 +53,16 @@ const Future = () => {
           </div>
         </div>
 
-        <div className="bg-[url(/build-bg.svg)] h-[393px] w-[295px] flex flex-col items-start p-8 justify-end">
-          <h1 className="opacity-70">Developers</h1>
-          <h1 className="w-[209px] text-[20px] font-bold leading-[25px] py-[15px]">
+        <div className="bg-[url(/build-bg.svg)] bg-no-repeat rounded-[10px] bg-cover w-full h-[450px] flex flex-col items-start p-8 justify-end">
+          <h1 className="opacity-80 text-[14px] font-medium tracking-[-0.2px]">Developers</h1>
+          <h1 className="w-full text-[20px] font-bold leading-[25px] py-[15px] tracking-[-0.5px]">
           Build the futures of web3 events
           </h1>
-          <p className="w-[213px] opacity-70">
+          <p className="w-full tracking-[-0.2px] text-[14px] opacity-70">
           Explore the Coalesy platform, discover upcoming events, and join a community.
           </p>
-          <div className="gap-2 flex items-center pt-12">
-            <p>Learn More</p>
+          <div className="gap-2 text-[14px] font-medium flex items-center pt-12">
+            <p>Learn more</p>
             <Image
               className=""
               src="./arrow-right.svg"
