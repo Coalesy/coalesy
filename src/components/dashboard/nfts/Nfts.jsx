@@ -1,8 +1,9 @@
 import React from 'react'
+import DataTable from './DataTable'
 
 const Nfts = () => {
   return (
-    <div>Nfts</div>
+    <div><DataTable/></div>
   )
 }
 
