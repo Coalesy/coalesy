@@ -1,8 +1,13 @@
 import React from 'react'
+import Minting from './Minting'
+import WhiteList from './WhiteList'
 
 const Settings = () => {
   return (
-    <div>Settings</div>
+    <div className="">
+      <Minting/>
+      <WhiteList/>
+    </div>
   )
 }
 
