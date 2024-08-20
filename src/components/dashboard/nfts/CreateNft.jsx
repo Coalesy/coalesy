@@ -41,8 +41,10 @@ const CreateNft = () => {
             <span
               className="flex items-center justify-center h-[30px] w-[30px] rounded-full text-white"
               style={{
-                background:
-                  "linear-gradient(90deg, #FF5B96 0%, #FF93FF 63.47%, #742998 85.23%)",
+                background: `${
+                  i <= active &&
+                  "linear-gradient(90deg, #FF5B96 0%, #FF93FF 63.47%, #742998 85.23%)"
+                }`,
               }}
             >
               {i + 1}
