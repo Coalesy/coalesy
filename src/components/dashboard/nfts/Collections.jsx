@@ -11,7 +11,7 @@ const Collections = () => {
   return (
     <div className="flex flex-col gap-8 mt-8">
       <div className="flex flex-col gap-2">
-        <span className="text-white text-sm opacity-70">Choose collection</span>
+        <span className="text-white text-sm opacity-70">Choose  collection</span>
         <SelectInput
           src={selectCoin[active].icon}
           coin={selectCoin[active].short_name}
