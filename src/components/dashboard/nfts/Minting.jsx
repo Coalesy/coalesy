@@ -87,7 +87,7 @@ const Minting = () => {
 
   return (
     <div className="p-4  text-white">
-      <h1 className="text-xl font-semibold mb-4">Mint settings</h1>
+      <h1 className="text-sm opacity-50 mb-4">Mint settings</h1>
       <div className="">
         {!tasks.length ? (
           <div className="bg-white bg-opacity-10 p-4 rounded-lg mb-2 flex justify-between items-center">
