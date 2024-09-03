@@ -4,7 +4,7 @@ import { TbSearch } from "react-icons/tb"
 
 function Navbar() {
     return (
-        <div className="container flex justify-between items-center py-2 bg-[#10091B]">
+        <div className="container flex justify-between items-center py-2 bg-[#0A0511]">
             <Image src="/logo.svg" alt="Logo" width={100} height={50} />
             <div className="flex gap-10">
                 <div className='bg-[#443448] rounded-[5px]  px-4 w-[280px] flex items-center gap-2'>
