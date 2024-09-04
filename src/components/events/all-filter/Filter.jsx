@@ -27,7 +27,7 @@ function Filter() {
         <input type='search' placeholder='Search for categories, keywords' className='bg-transparent tracking-tight outline-none w-full text-white' />
       </div>
 
-      <div onClick={handleShow} className='bg-[#282232] flex flex-row items-center cursor-pointer justify-between px-4 h-[50px] w-[20%] rounded-[5px]'>
+      <div onClick={handleShow} className='bg-[#282232] z-50 flex flex-row items-center cursor-pointer justify-between px-4 h-[50px] w-[20%] rounded-[5px]'>
         {
             showPopup && <DateDrop /> 
         }
@@ -35,7 +35,7 @@ function Filter() {
          <Image src='./sort.svg' width={24} height={24} />
       </div>
 
-      <div  onClick={handleDrop} className='bg-[#282232] flex flex-row items-center cursor-pointer justify-between px-4 h-[50px] w-[30%] rounded-[5px]'>
+      <div  onClick={handleDrop} className='bg-[#282232] flex z-50 filter-blur flex-row items-center cursor-pointer justify-between px-4 h-[50px] w-[30%] rounded-[5px]'>
       {
             showDrop && <EventType /> 
         }
