@@ -19,7 +19,7 @@ const SolutionContent = () => {
               </div>
               </a>
 
-              <a href='#' className="text-white flex items-start gap-4">
+              <a href='/developers' className="text-white flex items-start gap-4">
               <Image src="/for-developers.svg" width={30} height={30} alt="for-developers"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>For developers</h1>
