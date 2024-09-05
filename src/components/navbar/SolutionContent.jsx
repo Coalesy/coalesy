@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const SolutionContent = () => {
   return (
-    <div className="absolute left-0 flex flex-col justify-center items-center top-[73px] w-full h-[300px] bg-[#10091B] z-50 border-t border-b border-[#282232]">
+    <div className="absolute left-0 flex flex-col justify-center items-center top-[73px] w-full h-[380px] bg-[#10091B] z-50 border-t border-b border-[#282232]">
         
         <div className='w-[40%]'>
 

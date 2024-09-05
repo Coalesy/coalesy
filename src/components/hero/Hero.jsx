@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div  className=" bg-[url(/first-bg.svg)] flex flex-col justify-start pt-[220px] items-center h-[1150px] bg-cover bg-center bg-[#10091B] bg-blend-normal">
+    <div  className=" bg-[url(/background.svg)] flex flex-col justify-start pt-[150px] items-center h-full bg-cover bg-center bg-[#10091B] bg-blend-normal">
 
       <div className="flex flex-col justify-center items-center gap-4">
         <div className="flex flex-col justify-center items-center gap-2 mb-[40px] w-[55%] text-center ">
