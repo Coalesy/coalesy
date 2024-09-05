@@ -1,46 +1,59 @@
 "use client"
 import { eventsData } from '@/components/events/event-details/data';
 import { useRouter } from 'next/navigation';
-// import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
 
-const OnlineEventDetail = () => {
+
+
+const EventDetail = ({ eventType }) => {
   const router = useRouter();
-  const id  = router.query;
+  const [event, setEvent] = useState(null);
 
-  const event = eventsData.find(event => event.id === parseInt(id) && event.category === 'Online');
+  useEffect(() => {
+    const searchParams = new URLSearchParams(window.location.search);
+    const id = searchParams.get('id');
+    
+    if (id) {
+      const foundEvent = eventsData.find(event => event.id === parseInt(id) && event.type === eventType);
+      setEvent(foundEvent);
+    }
+  }, [eventType]);
 
   if (!event) {
     return (
-      <div >
-      <div className='bg-[url(/solana-hack.svg)] h-[250px] w-full bg-no-repeat bg-[100%] bg-cover'></div>
-
-      <div className='footer-container bg-[#282322] p-5'>
-        <img src='/solana.svg' className="h-[80px] " />
-      </div>
-        
-        
+      <div>
+        <div className='bg-[url(/solana-hack.svg)] h-[250px] w-full bg-no-repeat bg-[100%] bg-cover'></div>
+        <div className='w-full footer-container -translate-y-10'>
+          <div className='bg-[#0A0511] rounded-full p-5 w-[120px] flex flex-row items-center justify-center'>
+            <img src='/solana.svg' className="h-[80px]" />
+          </div>
+        </div>
+        <p>hello</p>
       </div>
     );
   }
 
   return (
-    <div className="p-8">
-      <h1 className="text-3xl font-bold mb-4">{event.title}</h1>
-      <img src={event.image} alt={event.title} className="w-full h-64 object-cover rounded-lg mb-4" />
-      <div className="flex items-center gap-4 mb-4">
-        <img src={event.icons} alt={event.projectName} className="h-10" />
-        <h2 className="text-xl font-medium">{event.projectName}</h2>
-        {event.verified && <span className="text-blue-500">Verified</span>}
+    <div className="container mx-auto px-4 py-8 flex flex-row gap-8">
+      {/* Left Side */}
+      <div className="w-1/3">
+        <CompanyDetails event={event} />
+        <EventProgram programs={event.programs} />
+        <Accordion questions={event.questions} />
       </div>
-      <p className="text-lg mb-4">{event.description}</p>
-      <div className="text-md text-gray-600">
-        <p>Date: {event.date}</p>
-        <p>Time: {event.time}</p>
-        <p>Status: {event.status}</p>
+
+      {/* Right Side */}
+      <div className="w-2/3">
+        <EventActions />
+        <EventIntro videoUrl="/placeholder-video.mp4" />
+        <Tags tags={event.tags} />
+        <Category category={event.category} />
+        <Language language={event.language} />
+        <ResourceLinks resources={event.resources} />
+        <EventOrganizers organizers={event.organizers} />
       </div>
-        <h1>Hello</h1>
     </div>
   );
 };
 
-export default OnlineEventDetail;
+export default EventDetail;
