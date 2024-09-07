@@ -1,7 +1,6 @@
 "use client";
 import Create from "@/components/dashboard/nfts/Create";
 import DataTable from "@/components/dashboard/nfts/DataTable";
-import Nfts from "@/components/dashboard/nfts/Nfts";
 import React, { useState } from "react";
 
 const NftsPage = () => {

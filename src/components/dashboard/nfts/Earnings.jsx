@@ -2,8 +2,11 @@
 import React, { useState } from "react";
 import { TbMinus, TbPlus } from "react-icons/tb";
 
-const Earnings = () => {
+const Earnings = ({ handleChangeStep }) => {
   const [counter, setCounter] = useState(0);
+  const handleNext = () => {
+    handleChangeStep();
+  };
   return (
     <div className="flex flex-col gap-8 mt-8">
       <div className="relative w-full flex flex-col gap-2">
@@ -40,7 +43,10 @@ const Earnings = () => {
         />
       </div>
       <div className="flex mt-5 justify-end">
-        <button className="py-2 px-8 rounded bg-[#FF5B96] text-white text-sm">
+        <button
+          onClick={handleNext}
+          className="py-2 px-8 rounded bg-[#FF5B96] text-white text-sm"
+        >
           Next
         </button>
       </div>

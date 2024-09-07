@@ -5,14 +5,15 @@ import { Deploy } from "./dropdowns/Deploy";
 import CreateNft from "./CreateNft";
 import CreateContract from "./CreateContract";
 
+export const questions = [
+  "What Is an NFT?",
+  "What can NFT be used for?",
+  "How to create an NFT - On Coalesy?",
+  "How to create an NFT - On Coalesy?",
+];
+
 const Create = ({ setIsActive }) => {
   const [isCreateComponent, setIsCreateComponent] = useState(false);
-  const questions = [
-    "What Is an NFT?",
-    "What can NFT be used for?",
-    "How to create an NFT - On Coalesy?",
-    "How to create an NFT - On Coalesy?",
-  ];
 
   return (
     <div className="flex flex-col gap-5 mt-14 ml-10 py-8">
