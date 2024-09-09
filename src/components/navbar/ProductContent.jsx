@@ -11,11 +11,11 @@ const ProductContent = () => {
             <div className='flex gap-16'>
 
             <div className='flex flex-col gap-10'>
-              <a href='#' className="text-white flex items-start gap-4">
+              <a href='/events' className="text-white flex items-start gap-4">
               <Image src="/find-events.svg" width={30} height={30} alt="findevent"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>Find events</h1>
-                <p className='text-white opacity-70'>Discover unique experiences, connect with creators you love.</p>
+                <p className='text-white opacity-70 text-[12px]'>Discover unique experiences, connect with creators you love.</p>
               </div>
               </a>
 
@@ -23,17 +23,17 @@ const ProductContent = () => {
               <Image src="/voting.svg" width={30} height={30} alt="findevent"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>Voting</h1>
-                <p className='text-white opacity-70'>Discover unique experiences, connect with creators you love.</p>
+                <p className='text-white opacity-70 text-[12px]'>Discover unique experiences, connect with creators you love.</p>
               </div>
               </a>
             </div>
 
             <div className='flex flex-col gap-10'>
-              <a href='#' className="text-white flex items-start gap-4">
+              <a href='/nft/marketplace' className="text-white flex items-start gap-4">
               <Image src="/nft-mkt.svg" width={30} height={30} alt="findevent"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>NFT marketplace</h1>
-                <p className='text-white opacity-70'>Discover unique experiences, connect with creators you love</p>
+                <p className='text-white opacity-70 text-[12px]'>Discover unique experiences, connect with creators you love</p>
               </div>
               </a>
 
@@ -41,7 +41,7 @@ const ProductContent = () => {
               <Image src="/hardware.svg" width={30} height={30} alt="findevent"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>Hardware</h1>
-                <p className='text-white opacity-70'>Discover unique experiences, connect with creators you love.</p>
+                <p className='text-white opacity-70 text-[12px]'>Discover unique experiences, connect with creators you love.</p>
               </div>
               </a>
             </div>

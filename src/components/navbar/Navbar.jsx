@@ -61,7 +61,7 @@ const Navbar = () => {
       </div>
 
       <div>
-        <a href='' alt='' className="text[14px] :hover:bg-[#FF93FF] bg-[#FF5B96] tracking-[-0.5px] flex flex-row items-center justify-center h-[40px] px-6 text-center rounded-[5px] font-medium">Connect wallet</a>
+        <a href='/dashboard' alt='' className="text[14px] :hover:bg-[#FF93FF] bg-[#FF5B96] tracking-[-0.5px] flex flex-row items-center justify-center h-[40px] px-6 text-center rounded-[5px] font-medium">Connect wallet</a>
       </div>
       </div>
 

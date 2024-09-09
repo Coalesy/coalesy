@@ -11,16 +11,23 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-row justify-center items-center gap-4 mb-[40px] text-center text-[14px] tracking-[-0.2px] font-semibold ">
-          <a href='#' alt='' className="px-14 py-5 bg-[#FF5B96] rounded-[5px]">Explore events</a>
-          <a href='#' alt='' className="px-14 py-5 border border-[#FF5B96] text-[#FF5B96]  rounded-[5px]">Visit marketplace</a>
+          <a href='/events' alt='' className="px-14 py-5 bg-[#FF5B96] rounded-[5px]">Explore events</a>
+          <a href='/nft/marketplace' alt='' className="px-14 py-5 border border-[#FF5B96] text-[#FF5B96]  rounded-[5px]">Visit marketplace</a>
         </div>
       </div>
 
-      <iframe className=" mx-[25px] md:mt-[30px] md:w-[900px] md:h-[500px] rounded-[5px] md:rounded-[10px]"
-      src="https://www.youtube.com/watch?v=jCMU4qw6LqI&list=PLBnKlKpPeagl57K9bCw_IXShWQXePnXjY&index=6"
+      {/* <iframe className=" "
+      src=""
       frameborder="0"
       allowfullscreen
-    />
+    /> */}
+
+        <video
+          controls autoPlay muted loop
+          className="mx-[25px] md:mt-[30px] md:w-[900px] md:h-[500px] rounded-[5px] md:rounded-[10px]"
+        >
+          <source src="/radar-hack-video.mp4" type="video/mp4" />
+        </video>
       
       </div>
   );
