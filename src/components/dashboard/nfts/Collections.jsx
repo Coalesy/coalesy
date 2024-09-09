@@ -3,15 +3,18 @@ import React, { useState } from "react";
 import { SelectInput } from "./SelectInput";
 import { selectCoin } from "./selectData";
 
-const Collections = () => {
+const Collections = ({ handleChangeStep }) => {
   const [active, setActive] = useState(0);
   const handleSelectCoin = (i) => {
     setActive(i);
   };
+  const handleNext = () => {
+    handleChangeStep();
+  };
   return (
     <div className="flex flex-col gap-8 mt-8">
       <div className="flex flex-col gap-2">
-        <span className="text-white text-sm opacity-70">Choose  collection</span>
+        <span className="text-white text-sm opacity-70">Choose collection</span>
         <SelectInput
           src={selectCoin[active].icon}
           coin={selectCoin[active].short_name}
@@ -39,7 +42,10 @@ const Collections = () => {
         </div>
       </div>
       <div className="flex mt-5 justify-end">
-        <button className="py-2 px-8 rounded bg-[#FF5B96] text-white text-sm">
+        <button
+          onClick={handleNext}
+          className="py-2 px-8 rounded bg-[#FF5B96] text-white text-sm"
+        >
           Next
         </button>
       </div>

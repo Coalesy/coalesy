@@ -1,8 +1,8 @@
 import React from "react";
-import { data } from "./data";
 import Image from "next/image";
+import { data } from "../nfts/data";
 
-const DataTable = () => {
+const EventDataTable = () => {
   return (
     <table className="w-full">
       <thead className="bg-white bg-opacity-10">
@@ -115,4 +115,4 @@ const DataTable = () => {
   );
 };
 
-export default DataTable;
+export default EventDataTable;
