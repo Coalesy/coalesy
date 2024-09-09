@@ -28,7 +28,7 @@ export const SelectInput = ({
         </span>
       </div>
       {showInput && (
-        <div className="bg-white bg-opacity-10 z-[1000] w-full flex gap-4 flex-col mt-3 absolute p-3 rounded-3xl">
+        <div className="bg-[#282232] z-[1000] w-full flex gap-4 flex-col mt-3 absolute p-3 rounded-3xl">
           {dropdownData.map((drd, i) => (
             <div className="" key={i}>
               <div
