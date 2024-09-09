@@ -27,7 +27,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="fixed bg-[#10091B] h-[10vh] w-full justify-center flex items-center z-50">
+    <div className="sticky top-0 bg-[#0A0511] h-[10vh] w-full justify-center flex items-center z-50">
       <div className=" container flex justify-between items-center space-x-4  p-4 ">
 
         <a href='/'>
@@ -61,7 +61,7 @@ const Navbar = () => {
       </div>
 
       <div>
-        <a href='' alt='' className="text[15px] :hover:bg-[#FF93FF] bg-[#FF5B96] tracking-[-2%] py-5 px-16 rounded-[5px] font-semibold">Connect wallet</a>
+        <a href='' alt='' className="text[14px] :hover:bg-[#FF93FF] bg-[#FF5B96] tracking-[-0.5px] flex flex-row items-center justify-center h-[40px] px-6 text-center rounded-[5px] font-medium">Connect wallet</a>
       </div>
       </div>
 
