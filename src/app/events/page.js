@@ -1,14 +1,14 @@
-'use client'
+"use client"
+
 import Header from '@/components/events/header/Header';
 import Filter from '@/components/events/all-filter/Filter';
-import { useState } from 'react';
+import { useState } from "react";
 import Footer from '@/components/Footer';
-import React from 'react'
 import CategoryFilter from '../../components/events/event-details/CategoryFilter';
 import EventList from '../../components/events/event-details/EventList';
 import { eventsData } from '../../components/events/event-details/data';
 
-function page() {
+function Page() {
 
   const categories = ['All', 'Gaming', 'Entertainment', 'Payment', 'DAO', 'Blockchain', 'More'];
   const [activeCategory, setActiveCategory] = useState('All');
@@ -30,4 +30,4 @@ function page() {
   )
 }
 
-export default page;
+export default Page;

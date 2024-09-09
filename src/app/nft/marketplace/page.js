@@ -3,7 +3,7 @@ import Collections from "@/components/nft/marketplace/Collections";
 
 function page() {
   return (
-    <div className="">
+    <div className="footer-container">
       <Collections />
     </div>
   );
