@@ -3,15 +3,10 @@ import React from "react";
 
 const Future = () => {
   return (
-<<<<<<< HEAD
-    <div className="footer-container ">
-      <div className="pt-[80px] flex justify-center items-center pb-14">
-        <h1 className="text-[40px] font-bold tracking-[-1px] w-[70%] text-center">
-=======
+
     <div className="py-6">
       <div>
         <h1 className="text-[40px] font-[600] text-center">
->>>>>>> ff61c7bf661108d7b61323210e13bb04ced6ab7b
           The future is here, Take control
         </h1>
       </div>
