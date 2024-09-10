@@ -36,14 +36,14 @@ const EventDetail = ({ eventType }) => {
   return (
     <div className="container mx-auto px-4 py-8 flex flex-row gap-8">
       {/* Left Side */}
-      <div className="w-1/3">
+      {/* <div className="w-1/3">
         <CompanyDetails event={event} />
         <EventProgram programs={event.programs} />
         <Accordion questions={event.questions} />
-      </div>
+      </div> */}
 
       {/* Right Side */}
-      <div className="w-2/3">
+      {/* <div className="w-2/3">
         <EventActions />
         <EventIntro videoUrl="/placeholder-video.mp4" />
         <Tags tags={event.tags} />
@@ -51,7 +51,7 @@ const EventDetail = ({ eventType }) => {
         <Language language={event.language} />
         <ResourceLinks resources={event.resources} />
         <EventOrganizers organizers={event.organizers} />
-      </div>
+      </div> */}
     </div>
   );
 };
