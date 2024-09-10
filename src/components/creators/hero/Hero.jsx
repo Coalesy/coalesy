@@ -3,24 +3,23 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className='lg:py-[120px] py-[20px] '>
-        <div className=" bg-[#10091B]  lg:flex lg:flex-row flex-col items-center justify-center gap-[80px] py-4">
-        
+    <div className="lg:py-[50px] py-[20px] ">
+      <div className=" bg-[#10091B] pl-[140px] lg:flex lg:flex-row flex-col items-center justify-center gap-[40px] ">
         <div>
           <h1 className="text-[40px] lg:w-[442px] font-bold md:w-[400px] w-[350px] lg:leading-[44px] leading-[33px]">
-          Get front row with <span>Coalesy!</span>
+          Make It Happen with <span>Coalesy!</span>
           </h1>
           <p className="w-[442px] opacity-70 pt-6 pb-14">
-          Never miss out on the fun again! ‍♀️ Coalesy connects you to events you&apos;ll love.
+          Reach a wider audience, create a buzz, and sell out your next event with Coalesy.
           </p>
           <button className="bg-[#FF5B96] text-white py-[8px] px-[24px] rounded-md w-[205px] cursor-pointer">
-                Explore events
-              </button>
+            Launch wallet
+          </button>
         </div>
-        <div className='justify-end'>
+        <div className="justify-center flex mt-[-30px]">
           <Image
             className=""
-            src="./individual-hero.svg"
+            src="./creator-hero-img.svg"
             alt="Next.js Logo"
             width={732}
             height={732}

@@ -4,12 +4,12 @@
 const Possible = () => {
 
   return (
-    <div className="px-56 py-8 footer-container">
-      <div className="pb-[80px]">
-        <h1 className="w-[424px] text-[40px] font-bold tracking-[-1px] pt-[20px] lg:leading-[44px] leading-[33px]">
+    <div className="px-56 py-8">
+      <div>
+        <h1 className="w-[424px] text-[40px] font-600 lg:leading-[44px] leading-[33px]">
           We&apos;ve made it possible, everytime!
         </h1>
-        <p className="w-[424px] text-[16px] py-[28px] opacity-70 tracking-[-0.5px]">
+        <p className="w-[424px] py-[28px]">
           Explore the Coalesy platform, discover upcoming events, and join a community.
         </p>
         <button className="bg-[#FF5B96] text-[14px] tracking-[-0.2px] font-semibold text-white py-[16px] px-[24px] rounded-md w-[205px] cursor-pointer">

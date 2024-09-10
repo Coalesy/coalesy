@@ -11,7 +11,7 @@ const AboutContent = () => {
             <div className='flex gap-16'>
 
             <div className='flex flex-col gap-10'>
-              <a href='/about' className="text-white flex items-start gap-4">
+              <a href='#' className="text-white flex items-start gap-4">
               <Image src="/about-coalesy.svg" width={30} height={30} alt="about-coalesy"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>About Coalesy</h1>
