@@ -15,7 +15,7 @@ function Footer() {
         </div>
 
         <div className='flex flex-row gap-4 pt-[80px]'>
-          <div className='bg-[#443448] rounded-[5px]  px-4 py-4 w-[280px] flex '>
+          <div className='bg-[#282232] rounded-[5px]  px-4 py-4 w-[280px] flex '>
             <input className='outline-none text-[14px] text-white text-opacity-30 bg-transparent' type="email" placeholder="Email address" /> 
           </div>
           <button className="text[15px] :hover:bg-[#FF93FF] bg-[#FF5B96] py-5 px-16 rounded-[5px] font-semibold">Subscribe</button>
@@ -32,8 +32,8 @@ function Footer() {
         <div>
           <h1 className='text-[16px] font-semibold tracking-[-2%] pb-[15px]'>Products</h1>
           <div className='flex flex-col gap-4'>
-            <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Find events</a>
-            <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>NFT marketplace</a>
+            <a href='/events' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Find events</a>
+            <a href='/nft/marketplace' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>NFT marketplace</a>
             <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Voting</a>
             <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Hardware</a>
           </div>
@@ -42,16 +42,16 @@ function Footer() {
         <div>
           <h1 className='text-[16px] font-semibold tracking-[-2%] pb-[15px]'>Solutions</h1>
           <div className='flex flex-col gap-4'>
-            <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>For individuals</a>
-            <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>For businesses</a>
-            <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>For developers</a>
+            <a href='/individuals' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>For individuals</a>
+            <a href='/businesses' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>For creators</a>
+            <a href='/developers' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>For developers</a>
           </div>
         </div>
 
         <div>
           <h1 className='text-[16px] font-semibold tracking-[-2%] pb-[15px]'>Company</h1>
           <div className='flex flex-col gap-4'>
-            <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>About Coalesy</a>
+            <a href='/about' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>About Coalesy</a>
             <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Career</a>
             <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Suppport</a>
             <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Community</a>

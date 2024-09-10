@@ -19,7 +19,7 @@ const Web = () => {
           <h1 className="text-[40px] font-bold tracking-[-2px] w-[80%] mb-4">Web3 events, just for you!</h1>
           <p className="text-[16px] font-normal tracking-[-0.5px] opacity-70 mb-10 ">Ready to embark on unforgettable event journeys?  Explore the Coalesy platform, discover upcoming events, and join a community that celebrates the power of shared experiences.  We&apos;re more than just tickets; we&apos;re a platform built for event enthusiasts like you!</p>
 
-          <a href="#" className='text-[14px] flex gap-2 font-medium tracking-[-0.5px]'>Learn more <TbArrowNarrowRight className="text-[24px] opacity-70" /></a>
+          <a href="/events" className='text-[14px] flex gap-2 font-medium tracking-[-0.5px]'>Learn more <TbArrowNarrowRight className="text-[24px] opacity-70" /></a>
          </div>
             
         </div>
@@ -31,7 +31,7 @@ const Web = () => {
             <h1 className="text-[40px] font-bold tracking-[-2px] w-[80%] mb-4">Meet your favorite influencers, anywhere!</h1>
             <p className="text-[16px] font-normal tracking-[-0.5px] opacity-70 mb-10 ">Ready to embark on unforgettable event journeys?  Explore the Coalesy platform, discover upcoming events, and join a community that celebrates the power of shared experiences.  We&apos;re more than just tickets; we&apos;re a platform built for event enthusiasts like you!</p>
 
-            <a href="#" className='text-[14px] flex gap-2 font-medium tracking-[-0.5px]'>Learn more <TbArrowNarrowRight className="text-[24px] opacity-70" /></a>
+            <a href="/events" className='text-[14px] flex gap-2 font-medium tracking-[-0.5px]'>Learn more <TbArrowNarrowRight className="text-[24px] opacity-70" /></a>
           </div>
 
           <Image
@@ -57,7 +57,7 @@ const Web = () => {
               <h1 className="text-[40px] font-bold tracking-[-2px] w-[80%] mb-4">Buy & sell NFT tickets on Coalesy</h1>
               <p className="text-[16px] font-normal tracking-[-0.5px] opacity-70 mb-10 ">Buy tickets directly from creators, access exclusive content, and potentially resell your tickets on the secondary market. Coalesy fosters a secure and user-friendly environment for buying and selling NFT tickets.</p>
 
-              <a href="#" className='text-[14px] flex gap-2 font-medium tracking-[-0.5px]'>Learn more <TbArrowNarrowRight className="text-[24px] opacity-70" /></a>
+              <a href="/nft/marketplace" className='text-[14px] flex gap-2 font-medium tracking-[-0.5px]'>Learn more <TbArrowNarrowRight className="text-[24px] opacity-70" /></a>
             </div>
                 
           </div>

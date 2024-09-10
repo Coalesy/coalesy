@@ -15,7 +15,7 @@ const SolutionContent = () => {
               <Image src="/for-individuals.svg" width={30} height={30} alt="for-individuals"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>For individuals</h1>
-                <p className='text-white opacity-70'>Discover unique experiences, connect with creators you love.</p>
+                <p className='text-white opacity-70 text-[13px]'>Discover unique experiences, connect with creators you love.</p>
               </div>
               </a>
 
@@ -23,7 +23,7 @@ const SolutionContent = () => {
               <Image src="/for-developers.svg" width={30} height={30} alt="for-developers"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>For developers</h1>
-                <p className='text-white opacity-70'>Discover unique experiences, connect with creators you love.</p>
+                <p className='text-white opacity-70 text-[13px]'>Discover unique experiences, connect with creators you love.</p>
               </div>
               </a>
             </div>
@@ -33,7 +33,7 @@ const SolutionContent = () => {
               <Image src="/for-creators.svg" width={30} height={30} alt="for-creators"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>For creators</h1>
-                <p className='text-white opacity-70'>Discover unique experiences, connect with creators you love</p>
+                <p className='text-white opacity-70 text-[13px]'>Discover unique experiences, connect with creators you love</p>
               </div>
               </a>
             </div>

@@ -15,7 +15,7 @@ const AboutContent = () => {
               <Image src="/about-coalesy.svg" width={30} height={30} alt="about-coalesy"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>About Coalesy</h1>
-                <p className='text-white opacity-70'>Discover unique experiences, connect with creators you love.</p>
+                <p className='text-white opacity-70 text-[13px]'>Discover unique experiences, connect with creators you love.</p>
               </div>
               </a>
 
@@ -23,7 +23,7 @@ const AboutContent = () => {
               <Image src="/support-center.svg" width={30} height={30} alt="support-center"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>Support center</h1>
-                <p className='text-white opacity-70'>Discover unique experiences, connect with creators you love.</p>
+                <p className='text-white opacity-70 text-[13px]'>Discover unique experiences, connect with creators you love.</p>
               </div>
               </a>
             </div>
@@ -33,7 +33,7 @@ const AboutContent = () => {
               <Image src="/work-with-us.svg" width={30} height={30} alt="work-with-us"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>Work with us</h1>
-                <p className='text-white opacity-70'>Discover unique experiences, connect with creators you love</p>
+                <p className='text-white opacity-70 text-[13px]'>Discover unique experiences, connect with creators you love</p>
               </div>
               </a>
 
@@ -41,7 +41,7 @@ const AboutContent = () => {
               <Image src="/community.svg" width={30} height={30} alt="community"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>Community</h1>
-                <p className='text-white opacity-70'>Discover unique experiences, connect with creators you love.</p>
+                <p className='text-white opacity-70 text-[12px]'>Discover unique experiences, connect with creators you love.</p>
               </div>
               </a>
             </div>
