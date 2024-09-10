@@ -44,6 +44,9 @@ const EventCompiler = ({ setIsActive }) => {
     {
       component: <EventOrganizers handleChangeStep={handleChangeStep} />,
     },
+    {
+      component: <EventOrganizers handleChangeStep={handleChangeStep} />,
+    },
     //   {
     //     component: <Settings handleChangeStep={handleChangeStep} />,
     //   },
