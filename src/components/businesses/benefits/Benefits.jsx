@@ -17,7 +17,7 @@ function Benefits() {
       <div className='footer-container w-full flex gap-14'>
         <div className='w-[42%]'>
             <h1 className='text-[40px] font-bold tracking-[-1px] mb-14 leading-tight'>Why choosing Coalesy as your event platform</h1>
-            <div> <a href='#' alt='' className="px-14 py-5 bg-[#10091B] rounded-[5px]">Create events</a> </div>
+            <div> <a href='/notfound' alt='' className="px-14 py-5 bg-[#10091B] rounded-[5px]">Create events</a> </div>
         </div>
 
         <div>

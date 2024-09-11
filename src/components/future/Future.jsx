@@ -4,9 +4,9 @@ import React from "react";
 const Future = () => {
   return (
 
-    <div className="py-6">
+    <div className="py-6 pt-[80px]">
       <div>
-        <h1 className="text-[40px] font-[600] text-center">
+        <h1 className="text-[40px] mb-8 tracking-tight font-[600] text-center">
           The future is here, Take control
         </h1>
       </div>

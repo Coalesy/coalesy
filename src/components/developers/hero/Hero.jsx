@@ -1,34 +1,24 @@
-import Image from "next/image";
-import React from "react";
+import React from 'react'
 
 const Hero = () => {
   return (
-    <div className="lg:py-[30px] py-[20px] ">
-      <div className=" bg-[#10091B] lg:pl-[140px] pl-0 lg:flex lg:flex-row flex-col items-center lg:justify-between justify-center">
-        <div className="">
-          <h1 className="text-[40px] lg:w-[442px] font-bold md:w-[400px] w-[350px] lg:leading-[44px] leading-[33px]">
+    <div className='h-[100vh] w-full'>
+        <div className=" bg-[url(/developers-hero.svg)] bg-no-repeat rounded-[10px] w-full h-[100vh] bg-right bg-contain flex flex-col items-start p-8 justify-center">
+        
+        <div className='footer-container flex flex-col justify-center w-full'>
+          <h1 className="text-[50px] lg:w-[442px] font-bold md:w-[400px] w-[350px] tracking-[-1px] lg:leading-[55px] leading-[33px]">
             Powerful Web3 Ticketing APIs
           </h1>
-          <p className="w-[442px] opacity-70 pt-6 pb-14">
-            Share your creations, collaborate with other innovators, and push
-            the boundaries of event technology together.
+          <p className="w-[442px] text-[16px] tracking-[-0.2px] opacity-70 pt-6 pb-14">
+            Share your creations, collaborate with other innovators, and push the boundaries of event technology together.
           </p>
-          <button className="bg-[#FF5B96] text-white py-[8px] px-[24px] rounded-md w-[205px] cursor-pointer">
-            Read docs
-          </button>
+          <a href='#' alt='' className="px-14 py-5 text-[14px] font-medium tracking-[-0.2px] w-[220px] text-center bg-[#FF5B96] rounded-[5px]">Read docs</a>
+
         </div>
-        <div className="justify-end items-end flex">
-          <Image
-            className=""
-            src="./developers-hero.svg"
-            alt="Next.js Logo"
-            width={500}
-            height={500}
-          />
-        </div>
+        
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero
