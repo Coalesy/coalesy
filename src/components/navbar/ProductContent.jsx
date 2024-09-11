@@ -19,7 +19,7 @@ const ProductContent = () => {
               </div>
               </a>
 
-              <a href='#' className="text-white flex items-start gap-4">
+              <a href='/notfound' className="text-white flex items-start gap-4">
               <Image src="/voting.svg" width={30} height={30} alt="findevent"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>Voting</h1>
@@ -37,7 +37,7 @@ const ProductContent = () => {
               </div>
               </a>
 
-              <a href='#' className="text-white flex items-start gap-4">
+              <a href='/notfound' className="text-white flex items-start gap-4">
               <Image src="/hardware.svg" width={30} height={30} alt="findevent"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>Hardware</h1>

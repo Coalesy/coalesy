@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className='h-[100vh] w-full'>
-        <div className=" bg-[url(/business-hero.svg)] bg-no-repeat rounded-[10px] w-full h-[100vh] bg-right flex flex-col items-start p-8 justify-center">
+        <div className=" bg-[url(/business-hero.svg)] bg-no-repeat rounded-[10px] w-full h-[100vh] bg-right bg-contain flex flex-col items-start p-8 justify-center">
         
         <div className='footer-container flex flex-col justify-center w-full'>
           <h1 className="text-[50px] lg:w-[442px] font-bold md:w-[400px] w-[350px] tracking-[-1px] lg:leading-[55px] leading-[33px]">

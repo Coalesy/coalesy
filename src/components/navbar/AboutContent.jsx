@@ -11,7 +11,7 @@ const AboutContent = () => {
             <div className='flex gap-16'>
 
             <div className='flex flex-col gap-10'>
-              <a href='#' className="text-white flex items-start gap-4">
+              <a href='/about' className="text-white flex items-start gap-4">
               <Image src="/about-coalesy.svg" width={30} height={30} alt="about-coalesy"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>About Coalesy</h1>
@@ -19,7 +19,7 @@ const AboutContent = () => {
               </div>
               </a>
 
-              <a href='#' className="text-white flex items-start gap-4">
+              <a href='/notfound' className="text-white flex items-start gap-4">
               <Image src="/support-center.svg" width={30} height={30} alt="support-center"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>Support center</h1>
@@ -29,7 +29,7 @@ const AboutContent = () => {
             </div>
 
             <div className='flex flex-col gap-10'>
-              <a href='#' className="text-white flex items-start gap-4">
+              <a href='/notfound' className="text-white flex items-start gap-4">
               <Image src="/work-with-us.svg" width={30} height={30} alt="work-with-us"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>Work with us</h1>
@@ -37,7 +37,7 @@ const AboutContent = () => {
               </div>
               </a>
 
-              <a href='#' className="text-white flex items-start gap-4">
+              <a href='/notfound' className="text-white flex items-start gap-4">
               <Image src="/community.svg" width={30} height={30} alt="community"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>Community</h1>

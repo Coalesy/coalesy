@@ -34,8 +34,8 @@ function Footer() {
           <div className='flex flex-col gap-4'>
             <a href='/events' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Find events</a>
             <a href='/nft/marketplace' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>NFT marketplace</a>
-            <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Voting</a>
-            <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Hardware</a>
+            <a href='/notfound' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Voting</a>
+            <a href='/notfound' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Hardware</a>
           </div>
         </div>
 
@@ -52,16 +52,16 @@ function Footer() {
           <h1 className='text-[16px] font-semibold tracking-[-2%] pb-[15px]'>Company</h1>
           <div className='flex flex-col gap-4'>
             <a href='/about' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>About Coalesy</a>
-            <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Career</a>
-            <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Suppport</a>
-            <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Community</a>
+            <a href='/notfound' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Career</a>
+            <a href='/notfound' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Suppport</a>
+            <a href='/notfound' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Community</a>
           </div>
         </div>
         
         <div>
           <h1 className='text-[16px] font-semibold tracking-[-2%] pb-[15px]'>Developers</h1>
           <div className='flex flex-col gap-4'>
-            <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Documentation</a>
+            <a href='/notfound' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Documentation</a>
           </div>
         </div>
       
@@ -74,22 +74,22 @@ function Footer() {
       <div className='footer-container'>
         <div className='flex flex-row  justify-between items-center'>
 
-          <Image src="/logoicon.svg" width={30} height={30} />
+          <Image src="/logoicon.svg" width={30} height={30} alt='logo'/>
 
           <div className='flex flex-row gap-4'>
             <p className='text-[15px] opacity-30 tracking-tight'>© 2024 Coalesy.com. All rights reserved.</p>
-            <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Terms of service</a>
-            <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Whitepaper</a>
-            <a href='#' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Whitepaper</a>
+            <a href='/notfound' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Terms of service</a>
+            <a href='/notfound' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Whitepaper</a>
+            <a href='/notfound' className='text-[15px] opacity-70 tracking-tight hover:text-[#FF5B96]'>Cookie settings</a>
           </div>
 
           <div className='flex flex-row gap-4'>
-            <a href='#' className=''><Image src="/discord.svg" width={24} height={24} /></a>
-            <a href='#' className=''><Image src="/telegram.svg" width={24} height={24} /></a>
-            <a href='https://x.com/coalesynft' target='blank' className=''><Image src="/twitter.svg" width={24} height={24} /></a>
-            <a href='#' className=''><Image src="/instagram.svg" width={24} height={24} /></a>
-            <a href='#' className=''><Image src="/youtube.svg" width={24} height={24} /></a>
-            <a href='#' className=''><Image src="/medium.svg" width={24} height={24} /></a>
+            <a href='#' className=''><Image src="/discord.svg" width={24} height={24} alt='social'/></a>
+            <a href='#' className=''><Image src="/telegram.svg" width={24} height={24} alt='social'/></a>
+            <a href='https://x.com/coalesynft' target='blank' className=''><Image src="/twitter.svg" width={24} height={24} alt='social'/></a>
+            <a href='#' className=''><Image src="/instagram.svg" width={24} height={24} alt='social'/></a>
+            <a href='#' className=''><Image src="/youtube.svg" width={24} height={24} alt='social'/></a>
+            <a href='#' className=''><Image src="/medium.svg" width={24} height={24} alt='social'/></a>
           </div>
 
         </div>

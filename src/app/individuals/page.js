@@ -1,16 +1,24 @@
-import Footer from '@/components/Footer'
-import Future from '@/components/future/Future'
-import Choose from '@/components/individuals/choose/Choose'
-import Hero from '@/components/individuals/hero/Hero'
-import Tickets from '@/components/individuals/tickets/Tickets'
-import Navbar from '@/components/navbar/Navbar'
 import React from 'react'
+import Navbar from "@/components/navbar/Navbar";
+import Hero from "@/components/individuals/hero/Hero";
+import Benefits from "@/components/individuals/benefits/Benefits";
+import Features from "@/components/individuals/features/Features";
+import Possible from "@/components/possible/Possible";
+import Future from "@/components/future/Future";
+import Footer from "@/components/Footer";
 
-const page = () => {
+
+
+function page() {
   return (
     <div>
-        <Navbar/>
-        <Hero/>
+        <Navbar />
+        <Hero />
+        <Benefits />
+        <Features />
+        <Possible />
+        <Future />
+        <Footer />
     </div>
   )
 }

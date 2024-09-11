@@ -4,9 +4,9 @@
 const Possible = () => {
 
   return (
-    <div className="px-56 py-8">
+    <div className="px-56 py-8 footer-container">
       <div>
-        <h1 className="w-[424px] text-[40px] font-600 lg:leading-[44px] leading-[33px]">
+        <h1 className="w-[424px] text-[40px] font-600 lg:leading-[44px] tracking-tight font-bold leading-[33px]">
           We&apos;ve made it possible, everytime!
         </h1>
         <p className="w-[424px] py-[28px]">

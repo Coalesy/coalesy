@@ -15,7 +15,7 @@ const Hero = () => {
 
     // Calculate scale to reach full viewport height
     const targetScale = viewportHeight / videoHeight;
-    const newScale = Math.min(1 + scrollTop / 200, targetScale); // Adjust zoom speed with divisor
+    const newScale = Math.min(1 + scrollTop / 100, targetScale); // Adjust zoom speed with divisor
 
     setScale(newScale);
   };
@@ -27,10 +27,10 @@ const Hero = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  });
 
   return (
-    <div  className=" bg-[url(/background.svg)] flex flex-col overflow-hidden justify-start pt-[150px] items-center h-[250vh] bg-cover bg-center bg-[#10091B] bg-blend-normal">
+    <div  className=" bg-[url(/background.svg)] flex flex-col overflow-hidden justify-start pt-[150px] items-center h-[200vh] bg-cover bg-center bg-[#10091B] bg-blend-normal">
 
       <div className="flex flex-col justify-center items-center gap-4">
         <div className="flex flex-col justify-center items-center gap-2 mb-[40px] w-[55%] text-center ">
