@@ -5,6 +5,8 @@ import EventFaq from "./EventFaq";
 import EventOrganizers from "./EventOrganizers";
 import EventDetails from "./EventDetails";
 import { questions } from "../nfts/Create";
+import Media from "./Media";
+import EventLink from "./EventLink";
 // import Collections from "./Collections";
 // import Earnings from "./Earnings";
 // import Links from "./Links";
@@ -44,12 +46,12 @@ const EventCompiler = ({ setIsActive }) => {
     {
       component: <EventOrganizers handleChangeStep={handleChangeStep} />,
     },
-    //   {
-    //     component: <Settings handleChangeStep={handleChangeStep} />,
-    //   },
-    //   {
-    //     component: <Items handleChangeStep={handleChangeStep} />,
-    //   },
+    {
+      component: <Media handleChangeStep={handleChangeStep} />,
+    },
+    {
+      component: <EventLink handleChangeStep={handleChangeStep} />,
+    },
   ];
 
   const totalSteps = nftcomponent.length;
