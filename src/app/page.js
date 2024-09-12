@@ -10,7 +10,7 @@ import Web from "@/components/web/Web";
 
 export default function Home() {
   return (
-    <main className="bg-[#10091B]">
+    <main className="bg-[#0A0511]">
       <Navbar/>
       <Hero/>
       <Trusted/>

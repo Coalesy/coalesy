@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const AboutContent = () => {
   return (
-    <div className="absolute left-0 flex flex-col justify-center items-center top-[73px] w-full h-[300px] bg-[#10091B] z-50 border-t border-b border-[#282232]">
+    <div className="absolute left-0 flex flex-col justify-center items-center top-[73px] w-full h-[380px] bg-[#10091B] z-50 border-t border-b border-[#282232]">
         
         <div className='w-[40%]'>
 
@@ -11,7 +11,7 @@ const AboutContent = () => {
             <div className='flex gap-16'>
 
             <div className='flex flex-col gap-10'>
-              <a href='#' className="text-white flex items-start gap-4">
+              <a href='/about' className="text-white flex items-start gap-4">
               <Image src="/about-coalesy.svg" width={30} height={30} alt="about-coalesy"/>
               <div className='flex flex-col'>
                 <h1 className='text-[16px] font-semibold'>About Coalesy</h1>
